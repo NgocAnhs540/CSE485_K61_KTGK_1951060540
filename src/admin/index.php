@@ -11,7 +11,7 @@ include('templates/header.php')
                     <th scope="col">Mã người hiến máu</th>
                     <th scope="col">Tên người hiến máu</th>
                     <th scope="col">Giới tính</th>
-                    <th scope="col">Năm sinh</th>
+                    <th scope="col">Tuổi</th>
                     <th scope="col">Nhóm máu</th>
                     <th scope="col">Ngày đăng kí hiến máu</th>
                     <th scope="col">Số điện thoại</th>

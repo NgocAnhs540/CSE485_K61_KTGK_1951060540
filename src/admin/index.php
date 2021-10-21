@@ -2,6 +2,8 @@
 include('templates/header.php')
 ?>
       <div class="row nav-menu ">
+
+      <a class="btn btn-primary m-3" href="them.php" role="button">Thêm mới</a>
          
           <div class="row">  
             <div class="col-md-12">
@@ -15,6 +17,8 @@ include('templates/header.php')
                     <th scope="col">Nhóm máu</th>
                     <th scope="col">Ngày đăng kí hiến máu</th>
                     <th scope="col">Số điện thoại</th>
+                    <th scope="col">Sửa</th>
+                    <th scope="col">Xóa</th>
                   </tr>
                 </thead>
                 <tbody>       
@@ -33,7 +37,9 @@ include('templates/header.php')
                       <td><?php echo $row['bd_age']; ?></td>
                       <td><?php echo $row['bd_bgroup']; ?></td>
                       <td><?php echo $row['bd_reg_date']; ?></td>
-                      <td><?php echo $row['bd_phno']; ?></td>                                
+                      <td><?php echo $row['bd_phno']; ?></td>     
+                      <td><a href="http://localhost/CSE485_K61_KTGK_1951060540/admin/sua.php?manv=<?php echo $row['bd_id'];?>"><i class="bi bi-pencil-square"></i></a></td>
+                      <td><a href="http://localhost/CSE485_K61_KTGK_1951060540/admin/xoa.php?manv=<?php echo $row['bd_id'];?>"><i class="bi bi-trash"></i></i></a></td>                           
                     </tr>
                 <?php
                       $i++;

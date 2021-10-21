@@ -2,9 +2,9 @@
 include('templates/header.php')
 ?>
       <div class="row nav-menu ">
-
+      <div class="col-md-9">
       <a class="btn btn-primary m-3" href="them.php" role="button">Thêm mới</a>
-         
+</div>
           <div class="row">  
             <div class="col-md-12">
               <table class="table table-success table-striped">
